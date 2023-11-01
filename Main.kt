@@ -1,3 +1,5 @@
+// Jogo de cartas-- sistemas de pontos //
+
 fun temKQJ (carta1: String, carta2:String): Boolean = carta1 == "K" || carta1 == "Q" || carta1 == "J" || carta2== "K" || carta2 == "Q" || carta2 == "J"
 
 fun pontosAs(carta: String, temKQJ: Boolean): Int
